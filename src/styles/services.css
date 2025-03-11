@@ -1,0 +1,123 @@
+.services-section {
+    padding: var(--padding-section);
+    background-color: var(--clr-light-gray);
+}
+
+.services-section h2 {
+    font-size: var(--fs-h2);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: var(--clr-primary);
+}
+
+.services-section h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--clr-black);
+    margin-bottom: 2.5rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.services-icons {
+    font-size: 3.5rem;
+    color: var(--clr-black);
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.services-features ul {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.services-features ul li {
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.cleaning-yes::marker {
+    content: '\2714';
+    font-weight: 900;
+    color: var(--clr-primary);
+    font-size: 20px;
+}
+
+.cleaning-no::marker {
+    content: '\2718';
+    font-weight: 900;
+    color: var(--clr-black);
+    font-size: 20px;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    position: relative;
+    padding: 2rem 0 3rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.services-card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-color: var(--clr-secondary);
+    z-index: 2;
+    top: 85px;
+    opacity: 0.3;
+}
+
+.services-card:nth-of-type(2) {
+    border: 3px solid var(--clr-primary);
+}
+
+.services-card:nth-of-type(2):after {
+    content: 'Populäraste valet';
+    position: absolute;
+    border: 3px solid var(--clr-primary);
+    border-radius: var(--border-radius);
+    padding: 2px;
+    top: -1rem;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: var(--ff-body);
+    background-color: var(--clr-primary);
+    color: var(--clr-light-gray);
+}
+
+.services-card i {
+    font-size: 3.5rem;
+    color: var(--clr-black);
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.services-card:hover {
+    transform: scale(1.02);
+}
+
+.services-card:hover h3 {
+    font-weight: 900;
+}
+
+.services-card:hover::after {
+    transform: scale(1.1);
+}
