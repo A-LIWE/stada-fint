@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stada-fint/static/css/main.2ca21614.css",
-    "main.js": "/stada-fint/static/js/main.fc20544a.js",
+    "main.js": "/stada-fint/static/js/main.63671203.js",
     "static/js/787.a96e94f7.chunk.js": "/stada-fint/static/js/787.a96e94f7.chunk.js",
     "static/media/bgimg-small-screens.jpg": "/stada-fint/static/media/bgimg-small-screens.80b6e6939ce57649af06.jpg",
     "static/media/bgimg-hero.jpg": "/stada-fint/static/media/bgimg-hero.6af259e17dc2050883fe.jpg",
@@ -10,11 +10,11 @@
     "static/media/femaleAvatar2.svg": "/stada-fint/static/media/femaleAvatar2.b36bd9818238ced741991ecd544384b0.svg",
     "index.html": "/stada-fint/index.html",
     "main.2ca21614.css.map": "/stada-fint/static/css/main.2ca21614.css.map",
-    "main.fc20544a.js.map": "/stada-fint/static/js/main.fc20544a.js.map",
+    "main.63671203.js.map": "/stada-fint/static/js/main.63671203.js.map",
     "787.a96e94f7.chunk.js.map": "/stada-fint/static/js/787.a96e94f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ca21614.css",
-    "static/js/main.fc20544a.js"
+    "static/js/main.63671203.js"
   ]
 }
