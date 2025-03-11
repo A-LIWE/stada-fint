@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/stada-fint/static/css/main.2ca21614.css",
+    "main.js": "/stada-fint/static/js/main.a9411ca3.js",
+    "static/js/787.a96e94f7.chunk.js": "/stada-fint/static/js/787.a96e94f7.chunk.js",
+    "static/media/bgimg-small-screens.jpg": "/stada-fint/static/media/bgimg-small-screens.80b6e6939ce57649af06.jpg",
+    "static/media/bgimg-hero.jpg": "/stada-fint/static/media/bgimg-hero.6af259e17dc2050883fe.jpg",
+    "static/media/femaleAvatar1.svg": "/stada-fint/static/media/femaleAvatar1.8f83d1932de2eb26b1981ee0b4f1d490.svg",
+    "static/media/maleAvatar.svg": "/stada-fint/static/media/maleAvatar.f724775025580d80a6862ef292b67b48.svg",
+    "static/media/femaleAvatar2.svg": "/stada-fint/static/media/femaleAvatar2.b36bd9818238ced741991ecd544384b0.svg",
+    "index.html": "/stada-fint/index.html",
+    "main.2ca21614.css.map": "/stada-fint/static/css/main.2ca21614.css.map",
+    "main.a9411ca3.js.map": "/stada-fint/static/js/main.a9411ca3.js.map",
+    "787.a96e94f7.chunk.js.map": "/stada-fint/static/js/787.a96e94f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca21614.css",
+    "static/js/main.a9411ca3.js"
+  ]
+}
