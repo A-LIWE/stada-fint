@@ -29,7 +29,7 @@ export default function Header() {
     return (
         <>
             <nav className="nav">
-                <a href="/landingPage">
+                <a href="/stada-fint/#/landingPage">
                     <div className="nav-logo">
                         <span>Städafint</span>
                     </div>
